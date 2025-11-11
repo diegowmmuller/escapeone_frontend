@@ -1,16 +1,16 @@
-# React + Vite
+# EscapeOne - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o frontend da aplicação EscapeOne, desenvolvido em React com Vite.
+A interface é executada localmente e se comunica diretamente com o backend Spring Boot via HTTP utilizando chamadas REST.
 
-Currently, two official plugins are available:
+Quando empacotado, o frontend é convertido em arquivos estáticos (index.html, JavaScript e CSS) e servido pelo próprio backend, funcionando offline, sem necessidade de internet.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Componente   | Descrição                               |
+| ------------ | --------------------------------------- |
+| React        | Biblioteca para construção da interface |
+| React Router | Controle de navegação SPA               |
+| Vite         | Ferramenta de build rápida              |
+| CSS puro     | Estilização simples e direta            |
+| Fetch API    | Comunicação com o backend               |
