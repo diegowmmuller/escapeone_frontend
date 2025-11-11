@@ -1,0 +1,66 @@
+.editar-container {
+  padding: 24px;
+  color: #eee;
+}
+
+.form-box {
+  background: #181818;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border: 1px solid #333;
+  max-width: 400px;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 8px;
+  background: #222;
+  border: 1px solid #444;
+  border-radius: 6px;
+  color: #eee;
+}
+
+.participantes-lista {
+  margin-top: 16px;
+}
+
+.linha-edicao {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 80px 1fr;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.actions {
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-voltar {
+  padding: 8px 14px;
+  background: #444;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-salvar {
+  padding: 8px 14px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}

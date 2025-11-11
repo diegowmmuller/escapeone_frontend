@@ -1,0 +1,23 @@
+/* Botão de desligar */
+.btn-desligar {
+  background: #cc0000;
+  border: none;
+  padding: 12px 24px; /* aumenta altura e largura */
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px; /* texto maior */
+  font-weight: 600; /* deixa mais “forte” */
+  transition: background 0.2s, transform 0.15s;
+  margin-left: 32px; /* afasta do resto da navbar */
+}
+
+.btn-desligar:hover {
+  background: #e60000; /* vermelho mais vivo no hover */
+  transform: scale(1.03); /* leve aumento ao passar o mouse */
+}
+
+.btn-desligar:active {
+  transform: scale(1);
+  opacity: 0.9;
+}
